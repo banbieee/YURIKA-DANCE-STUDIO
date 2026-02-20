@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+     background-color:#fa6775;
+}
+header img{
+    width: 100%;
+    display: block;
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 15px 10px;
+}
+.about{
+    background-color: #ffff00;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.about h1{
+    font-size: 36px;
+    padding: 40px 10px;
+    font-family: "Bitcount Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+.about img{
+    width: 80%;
+    max-width: 350px;
+    border-radius: 20%;
+}
+.about p{
+    padding: 30px;
+    line-height: 3;
+}
+.schedule{
+    background-color:azure;
+    padding: 30px;
+}
+.schedule h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.schedule table{
+    width: 100%;
+    max-width: 700px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    table-layout: fixed;
+    background-color: #fff;
+}
+.schedule td{
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid black;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: center;
+}
+/*.schedule td:first-child{
+    background-color: #eee;
+    font-weight: bold;
+}*/
+.price{
+    background-color: azure;
+    padding: 30px;
+}
+.price h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.price table{
+    width: 100%;
+    max-width: 700px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;table-layout: fixed;
+    background-color: #fff;
+    margin: 0 auto 30px;
+}
+.price td{
+    font-size: 168x;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+.access{
+    background-color: #fa6775;
+    text-align: center;
+    padding: 30px;
+}
+.access h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.access p{
+    margin-bottom: 20px;
+    color: #fff;
+}
+footer{
+    background-color: #ffff00;
+    padding:30px 10px;
+    text-align: center;
+}
+footer h2{
+    margin-bottom: 10px;
+    font-family: "Bitcount Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
